@@ -1,0 +1,481 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.8;
+}
+
+
+/* logo & image */
+#logo img{
+    height: 93px;
+    width: 96px;
+    margin: 5px;
+    border-radius: 60px;
+}
+
+/* list navigation */
+#navbar ul{
+    display: flex;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 5px 35px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    /* padding: 3px 200px; */
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #cf84d2;
+}
+#home::before{
+    content: "";
+    background-color: #ffa9a9f5;
+    position: absolute;
+    top: 108px;
+    left: 0px;
+    height: 1000px;
+    /* height: 200%; */
+    width: 100%;
+    z-index: -1;
+    opacity: .6;
+}
+
+#marquee img{
+    height: 50%;
+    border-radius: 50%;
+    width: 50%;
+    z-index: 1;
+}
+
+#home h1{
+    color: black;
+    top: 0px;
+    font-size: 75px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#para{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+#home h4{
+    padding: 20px;
+    font-size: 30px;
+}
+
+#home h3{
+    padding: 20px;
+    font-size: 50px;
+}
+.bold{
+    text-decoration: none;
+}
+.bold:hover{
+    text-decoration: none;
+    color: rgb(230, 18, 194);
+    background-color: cyan;
+    padding: 2px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+#home a:hover{
+    text-decoration: none;
+}
+
+/* bio_section  */
+
+#BIO{
+    background-color: #e2cce0;
+    border: 3px solid #cf84d2;
+    padding: 105px 0px;
+}
+
+#bio{
+    display: flex;
+    padding: 20px 0px;
+}
+
+#family{
+    height: 400px;
+    width: 1000px;
+}
+#address{
+    height: 400px;
+    width: 1000px;
+}
+#hobby{
+    height: 400px;
+    width: 1000px;
+}
+
+#bio .box{
+    border: 3px solid red;
+    padding: 15px 30px;
+    margin: 8px;
+    border-radius: 25px;
+    background-color: rgb(214, 187, 187);
+    font-size: 18px;
+    text-align: center;
+}
+
+#bio .box img{
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+
+/* education section  */
+
+#Education{
+    background-color: #d2c1a7;
+    border: 3px solid #cf84d2;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    /* color: white; */
+}
+
+#edu{
+    display: flex;
+    padding: 25px 20px;
+}
+#purah h2{
+    padding-bottom: 55px;
+}
+#pu-link{
+    padding-bottom: 30px;
+}
+#edu .box{
+    border: 3px solid red;
+    padding: 15px 10px;
+    margin: 8px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #c0b097;
+    text-align: center;
+    /* color: white; */
+}
+
+#edu .box img{
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+#edu img{
+    /* border: 3px solid green; */
+    border-radius: 55px;
+    height: 150px;
+    margin: auto;
+}
+#purah{
+    height: 600px;
+    width: 1000px;
+}
+#sekendarpur{
+    height: 600px;
+    width: 1000px;
+}
+#bit{
+    height: 600px;
+    width: 1000px;
+}
+
+
+#table{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 23px;
+    /* height: 150px; */
+    font-size: 20px;
+}
+
+.tab{
+    border: 2px soli black;
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+}
+.tab th{
+    background-color: #df7fa0;
+}
+.tab td{
+    background-color: #edeec8;
+    padding: 5px;
+}
+
+/* contact section  */
+
+#Contact{
+    /* height: 800px; */
+    background-color: #b2ffef;
+    border: 3px solid #cf84d2;
+    padding: 105px 5px;
+}
+#Contact::before{
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+#social{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 35px 0px;
+}
+#social img{
+    /* border: 3px solid green; */
+    border-radius: 120px;
+    height: 150px;
+}
+#facebook{
+    height: 400px;
+    width: 1000px;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+#instagram{
+    height: 400px;
+    width: 1000px;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+#linkedin{
+    height: 400px;
+    width: 1000px;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+#gmail{
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+
+.s-link{
+    padding-top: 20px;
+}
+
+/* music section  */
+
+#Music{
+    border: 3px solid #cf84d2;
+    background: #afb9e8;
+    padding: 100px 0px;
+    position: relative;
+    z-index: 1;
+
+}
+
+#Music h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+}
+#Music h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+   
+}
+.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* padding: 20px; */
+    margin: 25px;
+}
+
+
+/* message section  */
+
+#messageme{
+    background-color: #908b8a;
+    border: 3px solid #cf84d2;
+    padding: 95px 0px;
+}
+
+#contact-box::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 10px;
+}
+
+
+#contact-box input,
+#contact-box textarea{ 
+    width: 120%;
+    padding: 8px;
+    border-radius: 9px;
+    font-size: 16px;
+    background-color: white;
+}
+/* #contact-box form{
+    width: 30%;
+} */
+#Contact a{
+    color: #e81414;
+    text-decoration: none;
+}
+#Contact a:hover{
+    text-decoration: none;
+    background-color: rgb(226, 166, 186);
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    border-radius: 12px;
+    text-decoration-style: solid;
+}
+#contact-box label{
+    font-size: 20px;
+}
+
+/* footer  */
+footer{
+    background: black;
+    color: white;
+    padding: 9px 25px;
+    bottom: 0px;
+}
+
+/* special */
+
+.h-primary{
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h-secondary{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.about-school{
+    font-size: 18px;
+    margin: 8px;
+}
+
+.link{
+    border:3px solid black;
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;    
+}
+.link:hover{
+    border:3px solid white;
+    margin: 3px;
+    padding: 3px;
+    background-color: rgb(76, 97, 216);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;    
+}
+
+.social-link{
+    font-size: 20px;
+    color: black;
+}
+
+
+.btn{
+    padding: 7px 17px;
+    border: 2px solid red;
+    background-color: rgb(212, 199, 124);
+    color: #000000;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    padding: 7px 17px;
+    border: 2px solid red;
+    background-color: rgb(163, 127, 127);
+    color: #f1f2f5;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+

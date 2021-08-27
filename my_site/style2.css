@@ -1,0 +1,206 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navigation */
+#navbar{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 3px;
+}
+#navbar ul li a{
+    font-size: 15px;
+    padding: 4px 4px;
+    padding-bottom: 5px;
+}
+/* #navbar ul{
+    padding: 3px;
+} */
+
+
+/* home section  */
+#home{
+    display: flex;
+    /* padding: 20px */
+    padding-top: 130px;
+
+}
+#home::before{
+    top: 145px;
+    padding: 0px;
+}
+#home h1{
+    font-size: 45px;
+}
+#para{
+    margin: 20px;
+    font-size: 15px;
+}
+#home h3{
+    font-size: 25px;
+}
+
+/* bio section  */
+#BIO{
+    overflow: hidden;
+    padding-top: 160px;
+    padding-right: 50px;
+}
+#bio{
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+}
+#bio .box{
+    padding: 20px;
+    margin: 2px 2px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+#family{
+    /* height: 100%; */
+    width: 100%;
+}
+#address{
+    /* height: 100%; */
+    width: 100%;
+}
+#hobby{
+    /* height: 100%; */
+    width: 100%;
+}
+/* education section  */
+#Education{
+    overflow: hidden;
+    padding-right: 50px;
+    padding-top: 160px;
+}
+
+#edu{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#edu .box{
+    padding: 20px;
+    margin: 2px 2px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+#purah{
+    /* height: 600px; */
+    width: 100%;
+}
+#sekendarpur{
+    /* height: 600px; */
+    width: 100%;
+}
+#bit{
+    /* height: 600px; */
+    width: 100%;
+}
+
+#table{
+    width: auto;
+    padding: 0px;
+    font-size: 8px;
+
+}
+.tab{
+    padding: 1px;
+}
+.tab td{
+    background-color: #edeec8;
+    padding: 2px;
+}
+
+
+
+
+/* contact section  */
+#Contact{
+    overflow: hidden;
+    padding-right: 10px;
+    padding-top: 160px;
+}
+#social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+#facebook{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+#instagram{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+#linkedin{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+#gmail{
+    height: 100%;
+    width:100%;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* audio section  */
+#Music{
+    overflow: hidden;
+    padding-top: 160px;
+}
+.audio{
+    flex-direction: column;
+}
+#Music h3{
+    font-size: 15px;
+}
+#Music h4{
+    font-size: 10px;
+}
+/* message section */
+#messageme{
+    padding: 160px 5px;
+    font-size: 19px;
+}
+
+#contact-box input,
+#contact-box textarea{ 
+    width: 100%;
+    padding: 3px;
+    border-radius: 9px;
+    font-size: 16px;
+    background-color: white;
+}
+/* footer  */
+footer{
+    padding: 5px 5px;
+    bottom: 0px;
+    font-size: 15px;
+}
+
+
+/* special */
+
+.h-primary{
+    font-size: 35px;
+    text-align: center;
+}
